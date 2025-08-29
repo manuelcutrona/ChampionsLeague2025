@@ -44,7 +44,7 @@ Este proyecto requirió una limpieza y consolidación intensiva, realizada manua
 ## 🔍 Preguntas respondidas
 - ¿Qué clubes dominan la historia de la Champions?
 - ¿Qué países han ganado más títulos?
-- ¿Quiénes llegan al sorteo de 2024 con más experiencia y logros?
+- ¿Quiénes llegan al sorteo de 2025 con más experiencia y logros?
 
 ## 📎 Notas
 Este proyecto implicó una carga importante de limpieza y consolidación de datos. La información no se tomó directamente de una única fuente, sino que fue recopilada, cruzada y validada manualmente para asegurar coherencia y exactitud.
