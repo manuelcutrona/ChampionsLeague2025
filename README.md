@@ -1,14 +1,14 @@
-# 🏆 El Legado de los Gigantes del Fútbol: Del Pasado al Sorteo de Hoy
+#  El Legado de los Gigantes del Fútbol: Del Pasado al Sorteo de Hoy
 
 **Autor**: Manuel  
 **Herramienta**: Power BI  
 **Proyecto de la serie**: *Respondiendo dudas con datos*
 
-## 📌 Descripción
+##  Descripción
 
 Informe interactivo que explora el rendimiento histórico de los clubes en la UEFA Champions League, con foco en los equipos presentes en el sorteo de 2024.
 
-## 📂 Dataset
+##  Dataset
 
 Este proyecto requirió una limpieza y consolidación intensiva, realizada manualmente por el autor debido a la falta de recursos automáticos o datasets completos. El proceso incluyó:
 
@@ -22,9 +22,9 @@ Este proyecto requirió una limpieza y consolidación intensiva, realizada manua
 - Comprobación cruzada con fuentes externas para corregir inconsistencias graves.
 - Trabajo exhaustivo de combinación de tablas sin errores de duplicación o malformación.
 
-👉 Este proceso fue realizado íntegramente **por el autor**, sin automatización ni scraping, garantizando máxima fidelidad y detalle.
+ Este proceso fue realizado íntegramente **por el autor**, sin automatización ni scraping, garantizando máxima fidelidad y detalle.
 
-## 📊 Visualizaciones (Power BI)
+##  Visualizaciones (Power BI)
 
 ### Página 1 – Visión general
 - Gráfico: Participación histórica por clubes.
