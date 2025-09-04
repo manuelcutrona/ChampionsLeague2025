@@ -2,7 +2,7 @@ El Legado de los Gigantes del Fútbol: Del Pasado al Sorteo de Hoy
 
 Descripción
 
-Este proyecto es un informe interactivo en Power BI que analiza el rendimiento histórico de los clubes en la UEFA Champions League, con especial atención a los equipos presentes en el sorteo de 2024. La idea fue transformar un conjunto de datos incompleto y disperso en una visión clara, fiable y visualmente atractiva que permita responder a las preguntas más habituales sobre la competición.
+Este proyecto es un informe interactivo en Power BI que analiza el rendimiento histórico de los clubes en la UEFA Champions League, con especial atención a los equipos presentes en el sorteo de 2025. La idea fue transformar un conjunto de datos incompleto y disperso en una visión clara, fiable y visualmente atractiva que permita responder a las preguntas más habituales sobre la competición.
 
 Dataset y preparación
 
