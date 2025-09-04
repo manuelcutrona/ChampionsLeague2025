@@ -1,50 +1,33 @@
-#  El Legado de los Gigantes del Fútbol: Del Pasado al Sorteo de Hoy
+El Legado de los Gigantes del Fútbol: Del Pasado al Sorteo de Hoy
 
-**Autor**: Manuel  
-**Herramienta**: Power BI  
-**Proyecto de la serie**: *Respondiendo dudas con datos*
+Descripción
 
-##  Descripción
+Este proyecto es un informe interactivo en Power BI que analiza el rendimiento histórico de los clubes en la UEFA Champions League, con especial atención a los equipos presentes en el sorteo de 2024. La idea fue transformar un conjunto de datos incompleto y disperso en una visión clara, fiable y visualmente atractiva que permita responder a las preguntas más habituales sobre la competición.
 
-Informe interactivo que explora el rendimiento histórico de los clubes en la UEFA Champions League, con foco en los equipos presentes en el sorteo de 2024.
+Dataset y preparación
 
-##  Dataset
+La parte más exigente del proyecto no fue la visualización, sino la preparación de los datos. Ante la falta de un dataset oficial y completo, realicé una consolidación manual que combinó registros históricos hasta 2023 con la información más reciente (2024 y 2025). Esto implicó un proceso minucioso de limpieza y verificación.
 
-Este proyecto requirió una limpieza y consolidación intensiva, realizada manualmente por el autor debido a la falta de recursos automáticos o datasets completos. El proceso incluyó:
+Primero, integré datos de diferentes fuentes y corregí inconsistencias en los nombres de clubes para homogeneizar formatos (FC, AC, United, etc.). Después, construí nuevas métricas que enriquecen el análisis: el cálculo de Points (3 por victoria, 1 por empate) y la Efficiency (%) como ratio de puntos obtenidos sobre puntos posibles. A partir de ahí, elaboré la clasificación histórica basada en puntos.
 
-- Integración de datos históricos hasta 2023 con datos recientes (2024 y 2025) de forma manual.
-- Revisión y corrección de nombres de clubes (homogeneización de formatos: FC, AC, United, etc.).
-- Cálculo de nuevas métricas:
-  - `Points` = Wins × 3 + Draws × 1
-  - `Efficiency (%)` = Points / (Played × 3)
-- Creación de la clasificación histórica basada en puntos.
-- Validación de cifras erróneas, especialmente en títulos, partidos y goles.
-- Comprobación cruzada con fuentes externas para corregir inconsistencias graves.
-- Trabajo exhaustivo de combinación de tablas sin errores de duplicación o malformación.
+La validación de cifras fue una etapa crítica: revisé títulos, partidos y goles, corrigiendo errores significativos mediante comprobación cruzada con fuentes externas. El resultado final es un dataset coherente, sin duplicaciones ni registros malformados, preparado para un análisis detallado. Todo este trabajo fue realizado de forma manual, sin scraping ni automatización, lo que asegura la máxima fidelidad y atención al detalle.
 
- Este proceso fue realizado íntegramente **por el autor**, sin automatización ni scraping, garantizando máxima fidelidad y detalle.
+Visualizaciones en Power BI
 
-##  Visualizaciones (Power BI)
+El dashboard se organiza en dos páginas principales.
 
-### Página 1 – Visión general
-- Gráfico: Participación histórica por clubes.
-- Gráfico: Títulos por país.
-- KPI: Club más eficiente.
-- Mapa: Distribución geográfica.
-- Slicers por país y club.
-- Drill Through a ficha de club.
+La primera ofrece una visión global: un gráfico de participación histórica por clubes, otro que muestra títulos por país, un KPI que destaca al club más eficiente y un mapa que refleja la distribución geográfica de los equipos. Incluye también slicers interactivos para filtrar por país o club y la posibilidad de acceder a un drill through hacia una ficha detallada de cada club.
 
-### Página 2 – Detalle por club (Drill Through)
-- Goles a favor / en contra.
-- Resultados (W/D/L).
-- Eficiencia.
-- Total de puntos.
-- Diseño limpio y personalizado.
+La segunda página está dedicada precisamente a ese detalle. Aquí se pueden ver los goles a favor y en contra, el desglose de resultados (victorias, empates y derrotas), la eficiencia, los puntos acumulados y otros indicadores clave. Todo con un diseño limpio y personalizado que facilita la exploración.
 
-## 🔍 Preguntas respondidas
-- ¿Qué clubes dominan la historia de la Champions?
-- ¿Qué países han ganado más títulos?
+Preguntas respondidas
+
+Gracias a este análisis, el informe permite responder de forma clara a cuestiones clave como:
+
+¿Qué clubes dominan la historia de la Champions League?
+
+¿Qué países han levantado más títulos a lo largo de los años?
 - ¿Quiénes llegan al sorteo de 2025 con más experiencia y logros?
 
-## 📎 Notas
+ Notas
 Este proyecto implicó una carga importante de limpieza y consolidación de datos. La información no se tomó directamente de una única fuente, sino que fue recopilada, cruzada y validada manualmente para asegurar coherencia y exactitud.
